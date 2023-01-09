@@ -1,0 +1,51 @@
+.agile {
+	display: flex;
+	padding: 30px;
+	width: 95%;
+	background: #bb7ca3;
+	border-radius: 5px;
+}
+
+.agile__column {
+	flex: 1;
+}
+
+.agile__column:not(:last-child) {
+	margin-right: 30px;
+}
+
+.agile__column-title {
+	margin-bottom: 20px;
+	font-size: 30px;
+	color: white;
+	user-select: none;
+}
+
+.agile__item-input {
+	padding: 10px 15px;
+	box-sizing: border-box;
+	background: white;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.agile__dropzone {
+	height: 10px;
+	transition: background 0.15s, height 0.15s;
+}
+
+.agile__dropzone--active {
+	height: 20px;
+	background: rgba(0, 0, 0, 0.25);
+}
+
+.agile__add-item {
+	width: 100%;
+	padding: 10px 0;
+	font-size: 16px;
+	color: white;
+	background: rgba(0, 0, 0, 0.1);
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}

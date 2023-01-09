@@ -1,0 +1,151 @@
+/* start header */
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+	font-family: "pt serif", times new roman, Times, serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --main-color: rgba(0, 103, 181, 1);
+  --main-transition: 0.33s all ease-out;
+  --main-padding: 60px 0;
+  --main-margin: 60px 0;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  width: 100%;
+}
+nav {
+	background-color: #0c2462;
+  }
+  
+  nav .container {
+	display: flex;
+	align-items: center;
+  }
+  
+  nav h2 {
+	flex: 1;
+	color: white;
+	font-size: 35px;
+  }
+  
+  nav ul {
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+  }
+  
+  nav ul li a {
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	padding: 20px;
+	border-radius: 10px;
+	transition: var(--main-transition);
+  }
+  
+  nav ul li a:hover {
+	background-color: var(--main-color);
+  }
+/* .heading{
+    padding: 10px 50px;
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    justify-content: space-between;
+    background: #0C2461;
+    color: #fff;
+    box-shadow: 5px 0 5px #192a56;
+    overflow: hidden;
+}
+#nav-bar{
+    display: none;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+nav ul li{
+    margin-left: 30px;
+}
+nav ul li a{
+    color:#fff ;
+    text-decoration: none;
+} */
+/* start agile */
+.parent{
+	/* min-height: 80vh; */
+	display: flex;
+	align-items: center;
+	justify-content: cenetr;
+}
+.agile {
+	display: flex;
+	padding: 30px;
+	width: 90%;
+	margin: auto;
+	min-height: 63vh;
+	/* background: #bb7ca3; */
+	/* background-color: #0c2461; */
+	border-radius: 5px;
+}
+.agile__column {
+	flex: 1;
+}
+
+.agile__column:not(:last-child) {
+	margin-right: 30px;
+}
+
+.agile__column-title {
+	margin-bottom: 20px;
+	font-size: 30px;
+	color: white;
+	user-select: none;
+}
+
+.agile__item-input {
+	padding: 10px 15px;
+	box-sizing: border-box;
+	background: white;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.agile__dropzone {
+	height: 10px;
+	transition: background 0.15s, height 0.15s;
+}
+
+.agile__dropzone--active {
+	height: 20px;
+	background: rgba(0, 0, 0, 0.25);
+}
+
+.agile__add-item {
+	width: 100%;
+	padding: 10px 0;
+	font-size: 16px;
+	color: white;
+	background: rgba(0, 0, 0, 0.1);
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+/* start footer */
+footer{
+    padding: 5px;
+    text-align: center;
+    background-color: #0C2461;
+  }
+  footer h3{
+    color: #fff;
+    font-size: 24px;
+  }

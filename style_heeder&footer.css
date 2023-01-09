@@ -1,0 +1,103 @@
+/* * {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "pt serif", times new roman, Times, serif;
+    height: 500px;
+}
+
+:root {
+    --main-color: rgba(0, 103, 181, 1);
+    --main-transition: 0.33s all ease-out;
+    --main-padding: 60px 0;
+    --main-margin: 60px 0;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 100%;
+} */
+/************************************start nav ***************************************/
+/* nav {
+    background-color: #0c2462;
+}
+
+nav .container {
+    display: flex;
+    align-items: center;
+}
+
+nav h2 {
+    flex: 1;
+    color: white;
+    font-size: 35px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    transition: var(--main-transition);
+}
+
+nav ul li a:hover {
+    background-color: var(--main-color);
+} */
+/*********************************** end nav ***********************************/
+/*********************************** start footer ***********************************/
+/* footer {
+    position: relative;
+    padding: 10px 5px;
+    text-align: center;
+    background-color: #0c2462;
+    color: #fff;
+} */
+/*********************************** end footer  ***********************************/
+/*********************************** start media query  ***********************************/
+/* @media (max-width: 767px) {
+    .container {
+        width: 100%;
+        padding: 0 15px;
+    }
+    .about .container .agilee .image {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+@media (max-width: 991px) {
+    .about .container .agilee .image {
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+} */
